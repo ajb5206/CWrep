@@ -27,6 +27,8 @@ function magicalWell(a, b, n) {
   let total = 0;
   for(let i = n; i > 0; i --){
 		total += a * b;
+		a += 1;
+		b += 1;
 	}
   
 }
