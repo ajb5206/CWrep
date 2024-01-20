@@ -30,5 +30,5 @@ function magicalWell(a, b, n) {
 		a += 1;
 		b += 1;
 	}
-  
+  return total;
 }
