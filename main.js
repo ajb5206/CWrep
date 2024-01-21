@@ -40,3 +40,7 @@ function magicalWell(a, b, n) {
 // If the sum of odd numbers is greater than the sum of even numbers return: "Odd is greater than Even"
 
 // If the total of both even and odd numbers are identical return: "Even and Odd are the same"
+
+function evenOrOdd(str) {
+
+}
