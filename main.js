@@ -44,12 +44,19 @@ function magicalWell(a, b, n) {
 function evenOrOdd(str) {
 	let evenTot = 0;
 	let oddTot = 0;
-	for(let i = 0; i < str.length; i ++){
+	for(let i = 0; i < str.length; i ++){  // not efficient
     if(Number(str[i]) % 2 == 0){
       evenTot += Number(str[i])
     } else
       {
         oddTot += Number(str[i])
       }
+  }
+	if(evenTot > oddTot){
+    return "Even is greater than Odd"
+  }else if(oddTot > evenTot){
+    return"Odd is greater than Even"
+  } else{
+    return "Even and Odd are the same"
   }
 }
