@@ -44,4 +44,12 @@ function magicalWell(a, b, n) {
 function evenOrOdd(str) {
 	let evenTot = 0;
 	let oddTot = 0;
+	for(let i = 0; i < str.length; i ++){
+    if(Number(str[i]) % 2 == 0){
+      evenTot += Number(str[i])
+    } else
+      {
+        oddTot += Number(str[i])
+      }
+  }
 }
