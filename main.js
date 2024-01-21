@@ -42,5 +42,6 @@ function magicalWell(a, b, n) {
 // If the total of both even and odd numbers are identical return: "Even and Odd are the same"
 
 function evenOrOdd(str) {
-
+	let evenTot = 0;
+	let oddTot = 0;
 }
