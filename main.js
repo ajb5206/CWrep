@@ -65,5 +65,9 @@ function evenOrOdd(str) {
 //Create a function that checks if the first argument n is divisible by all other arguments (return true if no other arguments)
 
 function isDivisible(...nums){
-  
+  for(let i = 1; i < nums.length; i ++){
+		if(nums[0] % nums[i] != 0){
+			return false;
+		}
+	}
 }
