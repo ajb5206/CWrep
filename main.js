@@ -70,4 +70,5 @@ function isDivisible(...nums){
 			return false;
 		}
 	}
+	return true;
 }
