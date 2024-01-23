@@ -45,7 +45,7 @@ function evenOrOdd(str) {
 	let evenTot = 0;
 	let oddTot = 0;
 	let numArray = str.split('').map((x) => Number(x))
-	for(let i = 0; i < numArray.length; i ++){  // not efficient
+	for(let i = 0; i < numArray.length; i ++){  
     if(numArray[i] % 2 == 0){
       evenTot += numArray[i]
     } else
@@ -60,4 +60,10 @@ function evenOrOdd(str) {
   } else{
     return "Even and Odd are the same"
   }
+}
+
+//Create a function that checks if the first argument n is divisible by all other arguments (return true if no other arguments)
+
+function isDivisible(){
+  
 }
