@@ -101,6 +101,7 @@ function sumConsecutives(s){
 				}
 			}
 			i = j;
+			finalArray.push(multi * count)
 		}
 	}
 }
