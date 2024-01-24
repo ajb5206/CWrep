@@ -103,5 +103,10 @@ function sumConsecutives(s){
 			i = j;
 			finalArray.push(multi * count)
 		}
+		else
+		{
+			finalArray.push(s[i])
+		}
 	}
+	return finalArray;
 }
