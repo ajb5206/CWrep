@@ -100,6 +100,7 @@ function sumConsecutives(s){
 					break;
 				}
 			}
+			i = j;
 		}
 	}
 }
