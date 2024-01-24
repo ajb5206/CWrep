@@ -124,5 +124,9 @@ function catchSignChange(arr) {
       {
         count ++
       }
+			else if (arr[i] >= 0 && arr[i+1] < 0)
+      {
+        count ++
+      }
 	}
 }
