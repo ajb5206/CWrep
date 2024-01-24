@@ -111,4 +111,12 @@ function sumConsecutives(s){
 	return finalArray;
 }
 
-console.log(sumConsecutives([1,4,4,4,0,4,3,3,1]))
+//console.log(sumConsecutives([1,4,4,4,0,4,3,3,1]))
+
+// Count how often sign changes in array.
+// const arr = [1, -3, -4, 0, 5];
+// catchSignChange(arr) == 2;
+
+function catchSignChange(arr) {
+	
+}
