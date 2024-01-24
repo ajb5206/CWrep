@@ -129,4 +129,5 @@ function catchSignChange(arr) {
         count ++
       }
 	}
+	return count;
 }
