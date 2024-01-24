@@ -118,5 +118,5 @@ function sumConsecutives(s){
 // catchSignChange(arr) == 2;
 
 function catchSignChange(arr) {
-	
+	let count = 0;
 }
