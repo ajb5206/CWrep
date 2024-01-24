@@ -89,6 +89,17 @@ function sumConsecutives(s){
 		{
 			let multi = s[i]
 			count = 1
+			for(j = i; j<s.length; j ++)
+			{
+				if(s[j] == s[j + 1])
+				{
+					count ++
+				}
+				else 
+				{
+					break;
+				}
+			}
 		}
 	}
 }
