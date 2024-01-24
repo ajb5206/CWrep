@@ -83,4 +83,12 @@ function sumConsecutives(s){
 	let finalArray = [];
 	let count = 0;
 	let j = 0;
+	for(let i = 0; i < s.length; i ++)
+	{
+		if(s[i] == s[i + 1])
+		{
+			let multi = s[i]
+			count = 1
+		}
+	}
 }
