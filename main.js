@@ -149,18 +149,20 @@ function catchSignChange(arr) {
 // The function parts_sums (or its variants in other languages) will take as parameter a list ls and return a list of the sums of its parts as defined above.
 
 function partsSums(ls){
-	let finalLs = []
+	let finalLs = [];
 	let total = 0;
-	if(ls.length == 0 || ls.length == 1){
-		finalLs.push(0)
+	let arrLength = ls.length;
+	if(arrLength == 0 || arrLength == 1){
+		finalLs.push(0);
 	}else {
 		do {
-			total = ls.reduce((a, cv) => a + cv)
-			finalLs.push(total)
-			ls.shift()
+			total = ls.reduce((a, cv) => a + cv);
+			finalLs.push(total);
+			ls.shift();
+			arrLength --;
 			total = 0;
-		} while (ls.length > 0)
-		finalLs.push(0)
+		} while (arrLength > 0)
+		finalLs.push(0);
 	}
 	return finalLs;
 }
