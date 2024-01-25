@@ -151,4 +151,7 @@ function catchSignChange(arr) {
 function partsSums(ls){
 	let finalLs = []
 	let total = 0;
+	if(ls.length == 0){
+		finalLs.push(0)
+	}
 }
