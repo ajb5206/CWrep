@@ -149,5 +149,6 @@ function catchSignChange(arr) {
 // The function parts_sums (or its variants in other languages) will take as parameter a list ls and return a list of the sums of its parts as defined above.
 
 function partsSums(ls){
-	
+	let finalLs = []
+	let total = 0;
 }
