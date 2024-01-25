@@ -154,6 +154,13 @@ function partsSums(ls){
 	if(ls.length == 0 || ls.length == 1){
 		finalLs.push(0)
 	}else {
-
+		do {
+			total = ls.reduce((a, cv) => a + cv)
+			finalLs.push(total)
+			ls.shift()
+			total = 0;
+		} while (ls.length > 0)
+		finalLs.push(0)
 	}
+	return finalLs;
 }
