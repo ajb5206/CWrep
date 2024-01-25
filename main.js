@@ -191,5 +191,5 @@ function whatListAmIOn(actions){
 }
 
 function whatListAmIOn(actions){
-	
+	const bad = actions.filter(s => ['b', 'f', 'k'].includes(s[0])).length
 }
