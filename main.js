@@ -193,4 +193,5 @@ function whatListAmIOn(actions){
 function whatListAmIOn(actions){
 	const bad = actions.filter(s => ['b', 'f', 'k'].includes(s[0])).length;
 	const good = actions.filter(s => ['g', 's', 'n'].includes(s[0])).length;
+	return good > bad ? "nice" : "naughty";
 }
