@@ -182,4 +182,10 @@ function whatListAmIOn(actions){
 			count ++
 		}
 	}
+	if(count > 0){
+		return "nice"
+	}
+	else{
+		return "naughty"
+	}
 }
