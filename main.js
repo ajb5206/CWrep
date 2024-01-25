@@ -164,3 +164,4 @@ function partsSums(ls){
 	}
 	return finalLs;
 }
+//currently not performant 
