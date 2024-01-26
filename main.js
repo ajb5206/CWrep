@@ -199,5 +199,10 @@ function whatListAmIOn(actions){
 //https://www.codewars.com/kata/5782dd86202c0e43410001f6/train/javascript
 
 function doMath(string){
+	//split given string
 	let newArray = string.split(' ')
+	// order each new element by its included letter and keep order if same letter
+	// remove letter
+
+	//implement rolling + - * / 
 }
