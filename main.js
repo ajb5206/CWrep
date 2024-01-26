@@ -199,5 +199,5 @@ function whatListAmIOn(actions){
 //https://www.codewars.com/kata/5782dd86202c0e43410001f6/train/javascript
 
 function doMath(string){
-	
+	let newArray = string.split(' ')
 }
