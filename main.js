@@ -233,3 +233,8 @@ function maxProduct(numbers, size){
 	let total = sorted.reduce((a,cv) => a * cv)
 	return total
 }
+
+function maxProduct2(numbers, size){
+	return numbers
+		.sort((a, b) => b -a)
+}
