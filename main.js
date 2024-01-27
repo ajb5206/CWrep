@@ -224,6 +224,10 @@ function doMath(string){
 // Since the size (k) equal 2 , then the subsequence of size 2 whose gives product of maxima is 5 * 4 = 20 .
 
 function maxProduct(numbers, size){
-	let sorted = numbers.sort((a, b) => a -b);
+	let sorted = numbers.sort((a, b) => b - a);
 	let nums = numbers.length - size;
+	for(let i = 0; i < nums; i ++)
+	{
+		sorted.pop();
+	}
 }
