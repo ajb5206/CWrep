@@ -238,4 +238,5 @@ function maxProduct2(numbers, size){
 	return numbers
 		.sort((a, b) => b - a)
 		.slice(0, size)
+		.reduce((a, cv) => a * cv, 1)
 }
