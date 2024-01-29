@@ -254,15 +254,15 @@ function squareUp(n)
 {
 	let finalArr = []
 	let length = n * n;
-	for(let i = 0; i < n; i ++)
+	for(let i = 1; i < n; i ++)
 	{
 		for(let j = n; j > 0; j --)
 		{
 			finalArr.push(i>= j ? j : 0);
 		}
 	}
-    
-	return finalArr 
+	return finalArr;
+}
 // ex 4
 // 0001
 // 0021
