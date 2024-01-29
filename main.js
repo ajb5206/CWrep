@@ -258,12 +258,11 @@ function squareUp(n)
 	{
 		for(let j = n; j > 0; j --)
 		{
-			
+			finalArr.push(i>= j ? j : 0);
 		}
 	}
     
-	return finalArr // Do your magic!
-}
+	return finalArr 
 // ex 4
 // 0001
 // 0021
