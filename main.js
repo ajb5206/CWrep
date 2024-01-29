@@ -252,5 +252,20 @@ function maxProduct2(numbers, size){
 
 function squareUp(n)
 {
-    return [] // Do your magic!
+	let finalArr = []
+	let length = n * n;
+	for(let i = 0; i < n; i ++)
+	{
+		for(let j = n; j > 0; j --)
+		{
+			
+		}
+	}
+    
+	return finalArr // Do your magic!
 }
+// ex 4
+// 0001
+// 0021
+// 0321
+// 4321
