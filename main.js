@@ -253,11 +253,8 @@ function maxProduct2(numbers, size){
 function squareUp(n)
 {
 	let finalArr = []
-	let length = n * n;
-	for(let i = 1; i < n; i ++)
-	{
-		for(let j = n; j > 0; j --)
-		{
+	for(let i = 1; i <= n; i ++){
+		for(let j = n; j > 0; j --){
 			finalArr.push(i>= j ? j : 0);
 		}
 	}
