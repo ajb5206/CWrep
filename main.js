@@ -284,5 +284,5 @@ function primeFactors(n) {
 			i--;
 		}
 	}
-	return [];
+	return finalArr;
 }
