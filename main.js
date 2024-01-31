@@ -275,7 +275,7 @@ function squareUp(n)
 
 function primeFactors(n) {
 	let finalArr  = []
-	for(let i = 2; i < n; i ++)
+	for(let i = 2; i <= n; i ++)
 	{
 		if(n % i == 0)
 		{
