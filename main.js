@@ -280,7 +280,7 @@ function primeFactors(n) {
 		if(n % i == 0)
 		{
 			finalArr.push(i);
-			n -= i;
+			n = n/i;
 		}
 	}
 	return [];
