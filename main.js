@@ -281,6 +281,7 @@ function primeFactors(n) {
 		{
 			finalArr.push(i);
 			n = n/i;
+			i--;
 		}
 	}
 	return [];
