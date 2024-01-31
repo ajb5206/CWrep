@@ -286,3 +286,20 @@ function primeFactors(n) {
 	}
 	return finalArr;
 }
+// Task
+// Create a function that takes a list of integers and a group length as parameters. Your task is to determine if it's possible to split all the numbers from the list into groups of the specified length, while ensuring that consecutive numbers are present within each group.
+
+// Input
+// lst / arr: A list / array of integers representing the numbers to be divided into groups.
+
+// group_len / groupLen: An integer indicating the desired length of each group.
+
+// consecutiveNums([5, 6, 3, 4], 2) ➞ true
+//  Two groups of length 2: [3, 4], [5, 6]
+
+// consecutiveNums([1, 3, 4, 5], 2) ➞ false
+//  It is possible to make one group of length 2, but not a second one.
+
+function consecutiveNums(arr, groupLen){
+	
+}
