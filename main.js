@@ -301,5 +301,5 @@ function primeFactors(n) {
 //  It is possible to make one group of length 2, but not a second one.
 
 function consecutiveNums(arr, groupLen){
-	
+	arr.sort((a, b) => a - b)
 }
