@@ -304,5 +304,7 @@ function consecutiveNums(arr, groupLen){
 	arr.sort((a, b) => a - b)
 	if(groupLen == 1){
 		return true;
+	} else if( arr.length % groupLen != 0){
+		return false;
 	}
 }
