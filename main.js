@@ -315,3 +315,7 @@ function consecutiveNums(arr, groupLen){
 
 // 3, 2 --> 18
 // 4, 4 --> 100
+
+function numberOfRectangles(m, n) {
+  return ( m * (m + 1) * n * (n + 1)) / 4
+}
