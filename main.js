@@ -333,5 +333,33 @@ function numberOfRectangles(m, n) {
 // eye representing the spider's eye
 
 function drawSpider(legSize, bodySize, mouth, eye) {
-  return
+  let spider = ''
+	let legs = ''
+	let body = ''
+	if(legSize == 1)
+	{
+		legs = "^"
+	}else if(legSize == 2)
+	{
+		legs = `/\\`
+	}else if (legSize == 3)
+	{
+		legs = "/╲"
+	}else
+	{
+		legs = '╱╲'
+	}
+	if(bodySize == 1)
+	{
+		body = '('
+	}
+	else if(bodySize == 2)
+	{
+		body = "(("
+	}else {
+		body = "((("
+	}
+
+	
+	return
 }
