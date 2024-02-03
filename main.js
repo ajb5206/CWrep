@@ -319,3 +319,19 @@ function consecutiveNums(arr, groupLen){
 function numberOfRectangles(m, n) {
   return ( m * (m + 1) * n * (n + 1)) / 4
 }
+
+// /\((OOwOO))/\
+
+// /╲(((0000w0000)))╱\
+
+// ^(oWo)^
+// You will be given four values:
+
+// leg size where each value stands for its own leg type: 1 for "^ ^", 2 for "/\ /\", 3 for "/╲ ╱\", 4 for "╱╲ ╱╲"
+// body size where each value stands for its own body type: 1 for "( )", 2 for "(( ))", 3 for "((( )))"
+// mouth representing the spider's mouth
+// eye representing the spider's eye
+
+function drawSpider(legSize, bodySize, mouth, eye) {
+  return
+}
